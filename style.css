@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*
+{
+	margin:0;
+	padding:0;
+}
+header
+{
+	width:100%;
+	height:80px;
+	text-align:center;
+	background:#19B994;
+}
+h1
+{
+	position: relative;
+	top:12px;
+	color:white;
+}
+body
+{
+	background:#E5E8E8;
+}
+.score-board
+{
+	border:3px solid white;
+	width:300px;
+	height:200px;
+	margin:30px auto;
+	color:white;
+	border-radius:25px;
+	padding:15px 25px;
+	font-size: 26px;
+	position:relative;
+}
+#user
+{
+position:absolute;
+top:80px;
+left:-70px;
+background:#19B994;
+width:150px;
+text-align: center;
+border-radius:1rem;
+}
+#comp
+{
+position:absolute;
+top:80px;
+left:280px;
+background:#19B994;
+width:150px;
+text-align: center;
+border-radius:1rem;
+}
+span
+{
+position:relative;
+top:50px;
+left:120px;
+font-size:55px;
+
+}
+
+img
+{
+	height:80px;
+	width: 80px;
+	cursor:pointer;
+}
+.choices
+{
+	margin:60px auto;
+	text-align:center
+}
+.choice
+{
+	display:inline-block;
+	border:2px solid black;
+	border-radius:4rem;
+	padding:10px;
+	margin:0 20px;
+}
+.choice:hover
+{
+	cursor:pointer;
+	background:#808B96;
+}
+.Uresult
+{
+	font-size:40px;
+	text-align:center;
+	font-family: Franklin Gothic Heavy
+}
+.Cresult
+{
+	font-size:40px;
+	text-align:center;
+	top:50px;
+	font-family: Franklin Gothic Heavy
+}
+p
+{ 
+      font-size:40px;
+	text-align:center;
+font-family: 'Asap', sans-serif;
+}
+.reload
+{
+width: 50px;
+height: 50px;
+left:600px;
+
+}
